@@ -15,7 +15,7 @@ def pyramid_wtf(pyramid_height)
         elsif row > pyramid_height.to_f / 2           
             row_string = "#" *  ( (pyramid_height - row) * 2 + 1 )        
         else
-             row_string = "#" * pyramid_height
+            row_string = "#" * pyramid_height
         end
         puts row_string.center(pyramid_height) 
     end
